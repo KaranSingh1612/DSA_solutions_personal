@@ -11,7 +11,7 @@ class Solution:
                 return True
         return False
 
-# tortoise and hare approach
+# tortoise and hare approach/ floyd's cycle detection
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         slow = head
@@ -21,4 +21,3 @@ class Solution:
             fast = fast.next.next
             if slow == fast:
                 return True
-        return False
