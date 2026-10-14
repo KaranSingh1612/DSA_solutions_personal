@@ -1,4 +1,4 @@
-class Solution:
+class Solution:#for duplicates
     def search(self, nums: list[int], target: int) -> bool:
         low = 0
         high = len(nums)-1

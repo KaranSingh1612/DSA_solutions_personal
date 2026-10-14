@@ -1,4 +1,4 @@
-class Solution:
+class Solution:#minimun most likely in opposite of sorted part
     def findMin(self, nums: list[int]) -> int:
         low = 0
         high = len(nums)-1
